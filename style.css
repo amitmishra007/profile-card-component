@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+h1 {
+  color: hsl(229, 23%, 23%);
+}
+p {
+  color: hsl(227, 10%, 46%);
+  font-size: 8px;
+}
+h3 {
+  color: grey;
+  font-size: 11px;
+}
+.container {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.tl {
+  background-image: url("./images/bg-pattern-top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position-y: -300px;
+}
+.br {
+  background-image: url("./images/bg-pattern-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: 0px 300px;
+}
+.card {
+  width: 40vw;
+  height: 45vh;
+  margin-top: 10%;
+  position: relative;
+  overflow: hidden;
+  margin-left: -150px;
+  margin-right: -100px;
+}
+.udiv {
+  width: 100%;
+  height: 40%;
+  background-image: url("./images/bg-pattern-card.svg");
+  background-size: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ddiv {
+  background-color: white;
+  height: 60%;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.victor {
+  background-image: url("./images/image-victor.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 12vh;
+  left: 6.5vw;
+  z-index: 1;
+  border: 3px solid white;
+}
+.name {
+  text-align: center;
+  width: 100%;
+  height: 40%;
+  margin-top: 60px;
+  line-height: 12px;
+}
+.profile {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+hr {
+  width: 100%;
+  background-color: lightgray;
+  height: 1px;
+  border: none;
+}
+.profile h1 {
+  color: hsl(229, 23%, 23%);
+  font-size: 16px;
+}
+.profile p {
+  color: grey;
+}
+.sp {
+  color: gray;
+  font-weight: 400;
+}
